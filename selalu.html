@@ -1,0 +1,30 @@
+<head>
+	<title>Sistem Pakar</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/popup.js"></script>
+	<link rel="icon" type="image/ico" href="fav.png">
+</head>
+	<!-- Popup Login -->
+	<div id="popupbox"> 
+		<form name="login" action="" method="post">
+			<?php
+				include 'login.php';
+			?>
+			<table cellpadding="5" align="center"><br>
+			<tr>
+				<td>Username</td>
+				<td>: <input name="username" size="14" required/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>: <input name="password" type="password" size="14" required/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>&nbsp;<input type="submit" name="submit" value="Login"/>
+				<a href="javascript:login('hide');">Batal</a></td>
+			</tr>
+			</table>
+			</div>
+		</form> 
+	</div>

@@ -1,0 +1,143 @@
+body{
+	background:url(../images/bg.png);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color: #454545;
+	font: 85%/140% Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+button {
+    background: #428BCA;
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background: #3071A9
+}
+
+a{
+	color: #069;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #c00;
+}
+
+p{
+	text-align: justify;
+}
+
+h1{
+	line-height: 5em;
+}
+
+tr.font{
+	font-size:12px;
+}
+
+/*--------------------Page Wrapper--------------------*/
+
+#pagewrap {
+	width: 1000px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px black;
+	position:relative;
+}
+
+#header {
+	background:url(../images/test.png);
+	height: 165px;
+	background-size:100%;
+}
+
+#content {
+	background: url(../images/bg1.png);
+	min-height: 425px;
+	padding:10px;
+}
+
+#navbar{
+
+}
+
+div.admin{
+	min-height: 425px;
+	background: url(bg1.png);
+	padding:10px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#footer {
+	clear: both;
+	vertical-align:middle;
+	height:75px;
+	padding-top:40px;
+	border-top:1px solid #d6d6d6;
+	background: url(../images/bg1.png);
+}
+
+
+/*--------------------Popup Box--------------------*/
+
+#popupbox{
+	margin: 0; 
+	margin-left: 40%; 
+	margin-right: 40%;
+	margin-top: 165px; 
+	padding-top: 10px; 
+	width: 20%; 
+	height: 150px; 
+	position: fixed; 
+	background: url(bg1.png);
+	z-index: 1; 
+	font-family: arial; 
+	visibility: hidden;
+	box-shadow: 0 0 10px white; 
+	border-radius: 25px 0;
+}
+
+/*-----------------------Navigation Bar-------------------*/
+
+#nav {
+	width: 1000px;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+}
+
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff;
+}
